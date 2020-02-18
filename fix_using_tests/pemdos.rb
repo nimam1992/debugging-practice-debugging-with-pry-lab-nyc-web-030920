@@ -1,9 +1,11 @@
 require 'pry'
 
 def snake_it_up(string)
+  i = 0
+  while i < 10 do
   if string[0] == "s"
-  repeat = 10.times {'s' + string}
-  repeat
+    "s"+string
+    string
   else
   string
   end
