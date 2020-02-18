@@ -5,10 +5,10 @@ def snake_it_up(string)
   while i < 10 do
   if string[0] == "s"
     "s"+string
-    string
   else
   string
   end
   i+=1
 end
+string
 end
