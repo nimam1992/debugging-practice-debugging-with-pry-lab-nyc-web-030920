@@ -8,7 +8,6 @@ def prompt_user
   puts "What would you like to do?"
   puts "1.) Eat a hamburger."
   puts "2.) Eat a ham."
-  binding.pry
 end
 
 def selection(num)
@@ -20,6 +19,6 @@ def selection(num)
 end
 
 def runner
-  prompt_user
+  prompt_user()
   selection(get_user_input)
 end
